@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+body{
+  background: url("whitepaper.jpg") no-repeat;
+ background-size: cover;
+ padding:0;
+ margin:0;
+
+}
+form{
+         margin-left: 30%;
+         margin-top: 10px;;
+         display: inline-block;
+         border: 1px black;
+         width: 80%;
+
+}
+.name{
+
+         height: 100%;
+        padding: 20px;
+}
+input[type="text"],input[type="mail"],input[type="password"]{
+         padding: 10px;
+         width: 40%;
+           outline: none;
+           border-outline:none;
+         border-radius: 5px;
+         border-right: 1px red
+         display:inline-block;
+          font-weight: bold;
+          font-family: monospace;
+          text-align: center;
+          font-size: 14px;
+          transition: 0.6s;
+
+}
+input[type="radio"]{
+     margin-right: 90px;
+      padding: 5px;
+      background-color: red;
+      transition: 0.6s;
+      color: red;
+
+}
+  input[type="text"]:hover{
+        width:45%;
+  }
+  input[type="password"]:hover{
+        width:45%;
+        background-color: #9AECDB;
+  }
+  input[type="mail"]:hover{
+        width:45%;
+  }
+input[type="submit"]
+{
+      padding: 10px;
+       margin-left: 180px;
+       width: 24%;
+       border-radius: 10px;
+       box-shadow: 2px 2px 2px 2px grey;
+       transition: 0.6s;
+       cursor: pointer;
+       font-weight: bold;
+       color: red;
+}
+input[type="submit"]:hover{
+            width: 26%;
+}
+h1{
+     margin-left: 40%;
+     display: inline-block;
+      border-radius: 4px;
+     box-shadow:3px 3px 3px 3px grey;
+     color: green;
+     transition:0.5s;
+
+}
+h1:hover{
+      padding-left: 15px;
+}
+.fa{
+       font-size: 25px;
+       color: green;
+}
